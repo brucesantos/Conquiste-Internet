@@ -3762,6 +3762,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/depoentes\/jose-renato.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55088,
+		"inputAbbreviatedPath": "\/img\/depoentes\/jose-renato.jpg",
+		"outputAbbreviatedPath": "\/img\/depoentes\/jose-renato.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/depoentes\/ralph-scaramuzzi.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5688,
+		"inputAbbreviatedPath": "\/img\/depoentes\/ralph-scaramuzzi.jpg",
+		"outputAbbreviatedPath": "\/img\/depoentes\/ralph-scaramuzzi.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/depoentes\/rodrigo-latorre.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54644,
+		"inputAbbreviatedPath": "\/img\/depoentes\/rodrigo-latorre.jpg",
+		"outputAbbreviatedPath": "\/img\/depoentes\/rodrigo-latorre.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/map-img.png": {
 		"fileType": 32768,
 		"ignore": 0,
