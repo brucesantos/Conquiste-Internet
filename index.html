@@ -1,8 +1,8 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
+  <head class="no-skrollr">
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>Conquiste</title>
 
     <!-- typekit start -->
@@ -18,14 +18,14 @@
     <link rel="icon" type="image/png" href="img/favicon.png">
   </head>
 
-  <body><div id="space-bg">
+  <body id="skrollr-body"><div id="space-bg" data-top="background-position:0% 0%;" data-bottom="background-position:0% 10%;">
 
     <!-- =================================================================
     ********** CAPA **********
     ================================================================= -->
     <div id="conq-capa" class="row">
       <div id="moonman" class="small-12 large-6 columns">
-        <img src="img/moonman.svg" alt="astronalta na lua">
+        <img src="img/moonman.svg" alt="astronalta na lua" data-0="padding-top:0em;" data-1000="padding-top:7em;">
       </div>
       <div id="conq-title" class="small-12 large-6 columns">
         <h1>Conquiste</h1>
@@ -38,7 +38,7 @@
       </div>
     </div>
 
-    <img id="distant-planet" src="img/distant-planet.svg" alt="planeta distante ao fundo">
+    <img id="distant-planet" data-0="top:10vh;" data-1000="top:130vh;" src="img/distant-planet.svg" alt="planeta distante ao fundo">
 
 
     <!-- =================================================================
@@ -257,17 +257,21 @@
     ================================================================= -->
     <div id="conq-footer">
       <div>
-        <img id="cloud-1" src="img/clouds/clouds_cloud-1.svg" alt="nuvens">
-        <img id="cloud-2" src="img/clouds/clouds_cloud-2.svg" alt="nuvens">
-        <img id="cloud-3" src="img/clouds/clouds_cloud-3.svg" alt="nuvens">
-        <img id="cloud-4" src="img/clouds/clouds_cloud-4.svg" alt="nuvens">
-        <img id="cloud-5" src="img/clouds/clouds_cloud-5.svg" alt="nuvens">
-        <img id="earth" src="img/earth.svg" alt="planeta terra em primeiro plano">
+        <img id="cloud-1" src="img/clouds/clouds_cloud-1.svg" alt="nuvens" data-1000-end="left:10vw;" data-end="left:20vw;">
+        <img id="cloud-2" src="img/clouds/clouds_cloud-2.svg" alt="nuvens" data-900-end="left:70vw;" data-end="left:46vw;">
+        <img id="cloud-3" src="img/clouds/clouds_cloud-3.svg" alt="nuvens" data-800-end="left:-10vw;" data-end="left:6vw;">
+        <img id="cloud-4" src="img/clouds/clouds_cloud-4.svg" alt="nuvens" data-700-end="left:90vw;" data-end="left:75vw;">
+        <img id="cloud-5" src="img/clouds/clouds_cloud-5.svg" alt="nuvens" data-500-end="left:56vw;" data-end="left:50vw;">
+        <img id="earth" src="img/earth.svg" alt="planeta terra em primeiro plano" data-500-end="bottom:-10vh;" data-end="bottom:0vh;">
       </div>
     </div>
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="bower_components/skrollr/dist/skrollr.min.js"></script>
     <script src="js/app.js"></script>
+    <script type="text/javascript">
+      var s = skrollr.init();
+    </script>
   </div></body>
 </html>

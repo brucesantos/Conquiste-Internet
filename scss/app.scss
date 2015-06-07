@@ -66,10 +66,11 @@ $conq-sec-padding: 20em;
 
 // ========================GLOBAL
 #space-bg {
-	background: #03212b; /* Old browsers */
-	background: url(../img/stars.png) repeat fixed,
-				linear-gradient(to bottom,  #03212b 0%,#0d3642 25%,#366370 50%,#5f8c98 75%,#c3f1fc 100%) center top no-repeat;
-
+	background: url(../img/stars.png),
+				linear-gradient(to bottom,  #03212b 0%,#0d3642 25%,#366370 50%,#5f8c98 75%,#c3f1fc 100%),
+				#03212b; /* Old browsers */
+	background-attachment: scroll, scroll, scroll; // fixed para as estrelas
+    background-position: left top; // serve para os 3 BGs
 	// para incluir o planeta distante por tras do texto			
 	position: relative;
 	z-index: -2;
